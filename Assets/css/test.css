@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box ;
+
+}
+
+body{
+	background-color: goldenrod;
+}
+#wrapper{
+	width:80%;
+	margin:auto;
+}
+
+
+
+
+/* #pinaise {
+ 	background-color: navy ; 
+ 	color: white;
+	text-align: center;
+	margin: 10px;
+ }
+
+nav{
+background-color: navy ; 
+ color: white;
+ }
+
+h1{
+background-color: yellow ; 
+ color: black;
+ }
+
+article{
+background-color: white ; 
+ color: black;
+ }
+
+aside{
+background-color: navy ; 
+ color: white;
+ } */
