@@ -1,44 +1,106 @@
 *{
+font-family: Arial, Helvetica, sans-serif;
 margin: 0;
 padding: 0;
 box-sizing:border-box ;
-
+vertical-align: top;
 }
 
-body{
-	background-color: goldenrod;
-}
 #wrapper{
-	width:80%;
-	margin:auto;
+	padding : 0 10%;
+	background-color: rgb(250, 210, 20);
 }
+/* ------ BLOC SUPERIEUR------------------------------------- */
 
-
-
-
-/* #pinaise {
- 	background-color: navy ; 
+#pinaise {
+ 	background-color: rgb(77, 140, 200) ; 
  	color: white;
 	text-align: center;
-	margin: 10px;
+ }
+
+#Simpsons{
+	width:100%;
+ }
+
+/* ------ BLOC INFERIEUR------------------------------------- */
+
+/* ------ Colonne droite------------------------------------- */
+
+main  {
+display:flex ;
+background-color: white ; 
+padding-top: 2%;
  }
 
 nav{
-background-color: navy ; 
- color: white;
+	background-color: rgb(77, 140, 200) ; 
+ 	color: white;
+	padding : 1% 5%;
+	margin: 10px;
+	margin-bottom:250px;
  }
 
+ul{
+	list-style-type: none;
+	align-items : flex-start;	
+	text-align: center;
+}
+
+.menuLien{
+	color : white;
+	align-items: center;
+	white-space: nowrap;
+	display: block;
+	line-height: 2;
+}
+
+/* ------ Colonne centrale------------------------------------- */
 h1{
-background-color: yellow ; 
- color: black;
+	background-color: white ; 
+ 	color: rgb(250, 210, 20);
+	padding: 20px 0;
  }
 
 article{
-background-color: white ; 
- color: black;
+	background-color: white ; 
+ 	color: black;
+ }
+
+p {
+	text-align: justify ;
+}
+
+/* ------ Colonne gauche------------------------------------- */
+
+.Matt{
+	width: 100px;
+	margin: auto;
+	margin-top: 5% ;
+	display: block ;
+	border: 1px solid rgb(235, 235, 235);
+ }
+
+figcaption {
+	background-color: rgb(77, 140, 200) ; 
+ 	color: white;
+	font-weight: bold;
+	text-align: center;
  }
 
 aside{
-background-color: navy ; 
- color: white;
- } */
+	background-color: rgb(77, 140, 200) ; 
+ 	color: white;
+	padding-bottom: 0% 10%;
+	margin: 15px;
+ }
+
+aside p {
+margin: 5%;
+}
+
+footer{
+	background-color: rgb(77, 140, 200) ;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+ }
