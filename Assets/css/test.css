@@ -24,7 +24,7 @@ vertical-align: top;
 
 /* ------ BLOC INFERIEUR------------------------------------- */
 
-/* ------ Colonne droite------------------------------------- */
+/* ------ Colonne supérieure------------------------------------- */
 
 main  {
 display:flex ;
@@ -36,15 +36,17 @@ nav{
 	background-color: rgb(77, 140, 200) ; 
  	color: white;
 	padding : 1% 5%;
-	margin: 10px;
-	margin-bottom:250px;
  }
 
 ul{
 	list-style-type: none;
 	align-items : flex-start;	
 	text-align: center;
+	display: flex;
+	gap: 15px;
+	justify-content: center ;
 }
+
 
 .menuLien{
 	color : white;
@@ -59,6 +61,7 @@ h1{
 	background-color: white ; 
  	color: rgb(250, 210, 20);
 	padding: 20px 0;
+	margin-left: 20px;
  }
 
 article{
@@ -68,12 +71,28 @@ article{
 
 p {
 	text-align: justify ;
+	margin-left: 20px;
+}
+
+
+#Movie{
+ display: flex;
+	margin: 15px 0 15px 15px;
+	flex-direction: row;
+justify-content: space-between;
+
+}
+
+.movieImg{
+  width: 300px;
+	margin:10px
+
 }
 
 /* ------ Colonne gauche------------------------------------- */
 
 .Matt{
-	width: 100px;
+	width: 150px;
 	margin: auto;
 	margin-top: 5% ;
 	display: block ;
@@ -94,9 +113,12 @@ aside{
 	margin: 15px;
  }
 
-aside p {
+aside  p {
 margin: 5%;
 }
+
+h6 {text-align: center;}
+
 
 footer{
 	background-color: rgb(77, 140, 200) ;
