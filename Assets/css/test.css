@@ -76,17 +76,18 @@ p {
 
 
 #Movie{
- display: flex;
-	margin: 15px 0 15px 15px;
+ 	display: flex;
+	margin: 15px 0 15px 20px;
 	flex-direction: row;
-justify-content: space-between;
-
+	justify-content:space-between;
+	height: 330px;
+	overflow: hidden;
 }
 
 .movieImg{
-  width: 300px;
-	margin:10px
-
+	height: 400px;
+	margin: 5px;	
+	border: 1px solid black;
 }
 
 /* ------ Colonne gauche------------------------------------- */
